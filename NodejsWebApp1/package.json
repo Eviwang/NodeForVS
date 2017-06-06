@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-web-app1",
+  "version": "0.0.0",
+  "description": "NodejsWebApp1",
+  "main": "server.js",
+  "author": {
+    "name": "Evi.wang"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.27"
+  }
+}
