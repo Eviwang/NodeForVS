@@ -1,0 +1,10 @@
+"use strict";
+const http = require("http");
+http.createServer(function (req, res) {
+    res.writeHead(200, {
+        "Content-Type": "text/plain"
+    });
+    res.write("test");
+    res.end();
+}).listen(Math.round((1 + Math.random() * 1000)), "127.0.0.1");
+//# sourceMappingURL=worker.js.map
