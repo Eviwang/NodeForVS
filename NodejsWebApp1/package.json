@@ -7,7 +7,10 @@
     "name": "Evi.wang"
   },
   "devDependencies": {
+    "@types/benchmark": "^1.0.30",
     "@types/mime": "0.0.29",
-    "@types/node": "^7.0.27"
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.27",
+    "benchmark": "^2.1.4"
   }
 }
