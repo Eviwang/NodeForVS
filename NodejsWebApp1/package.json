@@ -8,9 +8,13 @@
   },
   "devDependencies": {
     "@types/benchmark": "^1.0.30",
+    "@types/connect": "^3.4.30",
     "@types/mime": "0.0.29",
     "@types/mocha": "^2.2.41",
+    "@types/morgan": "^1.7.32",
     "@types/node": "^7.0.27",
-    "benchmark": "^2.1.4"
+    "benchmark": "^2.1.4",
+    "connect": "^3.6.2",
+    "morgan": "^1.8.2"
   }
 }

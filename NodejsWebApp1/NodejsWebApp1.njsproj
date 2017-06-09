@@ -69,10 +69,19 @@
     <TypeScriptCompile Include="upload.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="产品化\日志.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="测试\demo1.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="测试\jscover\lib\module1.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="测试\压力测试\master.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="测试\压力测试\worker.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="测试\性能测试\benchmark.ts">
@@ -109,9 +118,11 @@
     </TypeScriptCompile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="产品化\" />
     <Folder Include="测试\" />
     <Folder Include="测试\jscover\" />
     <Folder Include="测试\jscover\lib\" />
+    <Folder Include="测试\压力测试\" />
     <Folder Include="测试\性能测试\" />
     <Folder Include="进程\" />
     <Folder Include="进程\cluster\" />
