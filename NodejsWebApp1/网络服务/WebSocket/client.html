@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+
+
+
+    <script>
+        var ws = new WebSocket("ws:localhost:5000");
+
+        ws.onopen = function () {
+            console.log("open");
+        }
+
+        ws.onmessage = function (e) {
+            console.log(e.data);
+        }
+    </script>
+
+
+</body>
+</html>

@@ -40,6 +40,9 @@
     <Content Include="tsconfig.json">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="网络服务\WebSocket\client.html">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="bigpipe.ts">
@@ -87,6 +90,9 @@
     <TypeScriptCompile Include="测试\性能测试\benchmark.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="网络服务\WebSocket\Server.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="进程\child.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
@@ -118,12 +124,14 @@
     </TypeScriptCompile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="网络服务\" />
     <Folder Include="产品化\" />
     <Folder Include="测试\" />
     <Folder Include="测试\jscover\" />
     <Folder Include="测试\jscover\lib\" />
     <Folder Include="测试\压力测试\" />
     <Folder Include="测试\性能测试\" />
+    <Folder Include="网络服务\WebSocket\" />
     <Folder Include="进程\" />
     <Folder Include="进程\cluster\" />
     <Folder Include="进程\句柄2\" />
